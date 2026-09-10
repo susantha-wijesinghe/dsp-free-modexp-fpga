@@ -1,4 +1,4 @@
-# DSP-Free Modular Exponentiation on FPGA (SARME core)
+# DSP-Free Modular Exponentiation on FPGA
 
 A Verilog/SystemVerilog hardware implementation of modular exponentiation that uses **zero DSP blocks and zero BRAM**, relying entirely on addition, bit-shifting, and comparison logic. Designed for resource-constrained FPGAs — IoT endpoints, secure sensor nodes, and embedded controllers — where DSP slices are scarce, absent, or too power-hungry for the application.
 
@@ -84,4 +84,30 @@ Wayamba University of Sri Lanka
 
 ## License
 
-The paper is published open access under CC BY 4.0. **Choose and add a license for the code itself** (e.g., MIT or Apache-2.0 are common permissive choices for research hardware repos) before making the repository public — none is currently specified here.
+The code in this repository is licensed under the MIT License — see [LICENSE](LICENSE) for the full text.
+
+```
+MIT License
+
+Copyright (c) 2026 W. A. Susantha Wijesinghe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+The paper itself is published open access under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) — that license governs the paper's text and figures, not this code.
